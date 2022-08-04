@@ -74,9 +74,7 @@ body {
     color: var(--secondary-colour);
     max-width: 210px;
     font-size: 38px;
-    font-weight: 500;
-
-    
+    font-weight: 500;  
 }
 
 .hero {
@@ -128,3 +126,4 @@ body {
     padding:20px 60px;
     border-radius: 30px;
 }
+
