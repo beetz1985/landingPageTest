@@ -66,15 +66,16 @@ body {
 
 .sub-section-1 {
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     flex: 1 1 50%;
-    align-content: space-between;
+    
 }
 
+/*
 .sub-section-1 > * {
     flex: 1 1 100%;
-
 }
+*/
 
 .title {
     padding: 0 var(--mobile-edge-padding);
@@ -105,6 +106,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     height:200px;
+    flex: 1 1 50%;
     
 
     color: var(--light-txt);
